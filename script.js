@@ -1,4 +1,15 @@
 document.addEventListener("DOMContentLoaded", (event) => {
+    // Create grid effect
+    const gridContainer = document.getElementById("grid-effect-container")
+    const rows = 20
+    const cols = 20
+  
+    for (let i = 0; i < rows * cols; i++) {
+      const tile = document.createElement("div")
+      tile.className = "grid-effect-tile"
+      gridContainer.appendChild(tile)
+    }
+  
     // Smooth scrolling
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
