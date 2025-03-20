@@ -71,6 +71,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [kalyanrajsahu@gmail.com](mailto:kalyanrajsahu@gmail.com)
+Your Name - KALYAN RAJ SAHU
+[kalyanrajsahu@gmail.com](mailto:kalyanrajsahu@gmail.com)
 
 Project Link: [https://github.com/KalyanRajSahu-Snap/Interactive-Resume](https://github.com/KalyanRajSahu-Snap/Interactive-Resume)
