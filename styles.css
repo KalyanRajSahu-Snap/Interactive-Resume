@@ -502,3 +502,44 @@ section {
   color: #666;
 }
 
+
+.contact-item {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: baseline;
+}
+
+.contact-label {
+  font-weight: 500;
+  min-width: 80px;
+  color: #2c3e50;
+}
+
+.contact-link {
+  color: #3498db;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.contact-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background-size: 400%;
+  transition: width 0.3s ease;
+  animation: glowing 20s linear infinite;
+}
+
+.contact-link:hover {
+  color: #2980b9;
+}
+
+.contact-link:hover::after {
+  width: 100%;
+}
